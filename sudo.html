@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Document</title>
+    <style>
+        .sub-header{
+        background-color:black;
+        color: white;
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+        line-height: 40px;
+        font-size: 17px;
+        }
+        li{
+padding: 0 20px;
+cursor: pointer;
+}
+  
+li:hover{
+background-color: green;
+color: black;
+}
+  
+*{
+margin: 0;
+}
+.banner{
+background-image: url("../images/banner.png");
+          height: 300px;
+}
+  
+.content{
+position: absolute;
+background-color: green;
+color: black;
+display: none;
+          
+         
+  
+}
+.content > li:hover{
+background-color: black;
+color: white;
+}
+  
+.hover{
+position: relative;
+  
+  
+
+}
+  
+.hover:hover .content{
+display: block;
+}
+</style>
+    
+</head>
+<body>
+    <div class="sub-header">
+        <div class="hover">
+        <li>HTML</li>
+        <div class="content">
+        <li>Htmlhome</li>
+        <li>Html element</li>
+        <li>Html Basic</li>
+        <li>Html Styles</li>
+        </div>
+        </div>
+        <div class="hover">
+        <li>JAVASCRIPT</li>
+        <div class="content">
+            <li>JS Home</li>
+            <li>JS intro</li>
+            <li>JS syntax</li>
+            <li>JS Output</li>
+            </div>
+            </div>
+            <div class="hover">
+            <li>CSS</li>
+            <div class="content">
+            <li>CSS intro</li>
+            <li>CSS Syntax</li>
+            <li>CSS element</li>
+            <li>CSS Selector</li>
+        </div>
+    </div>
+    <div class="hover">
+    <li>PYTHON</li>
+    <div class="content">
+    <li>PYTHON code</li>
+    <li>PYTHON Syntax</li>
+    <li>PYTHON Element</li>
+    <li>PYTHON List</li>
+    </div>
+    </div>
+    <div class="hover">
+    <li>PHP</li>
+    <div class="content">
+        <li>PHP Home</li>
+        <li>PHP Intro</li>
+        <li>PHP Syntax</li>
+        <li>PHP Code</li>
+        </div>
+        </div>
+        <div class="hover">
+        <li>C</li>
+        <div class="content">
+        <li>C home</li>
+        <li>C Syntax</li>
+        <li>C Code</li>
+        <li>C Element</li>
+        </div>
+    </div>
+    <div class="hover">
+    <li>C++</li>
+    <div class="content">
+    <li>C++ home</li>
+    <li>C++ Syntax</li>
+    <li>C++ Code</li>
+    <li>C Element</li>
+    </div>
+    </div>
+    
+    </div>
+    
+    <div class="banner"></div>
+</body>
+</html>
